@@ -282,7 +282,7 @@ function addFormValidation() {
     }
     const email = form.querySelector('#email');
     if (email) {
-        email.setAttribute('pattern', '[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$');
+        email.setAttribute('pattern', '.+@.+');
     }
     const projectDescription = form.querySelector('#projectDescription');
     if (projectDescription) {
